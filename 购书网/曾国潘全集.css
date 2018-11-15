@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* CSS Document */
+
+#a{
+	width:1200px;
+	height:140px;
+	left:360px;
+	top:80px;
+	position:absolute;
+	}
+	
+#a1{
+	width:1200px;
+	height:20px;
+	left:360px;
+	float: left;
+    margin-right: 7px;
+    font-size: 12px;
+	
+	position:absolute;
+	}
+#a2{
+	height:20px;
+	left:450px;
+	float: left;
+    margin-right: 7px;
+    font-size: 12px;
+	position:absolute;
+			
+			
+	}
+#a3{
+	height:20px;
+	left:1350px;
+	float: left;
+    margin-right: 7px;
+    font-size: 12px;
+	position:absolute;
+			
+			
+	}
+#a4{
+	height:20px;
+	left:1400px;
+	float: left;
+    margin-right: 7px;
+    font-size: 12px;
+	position:absolute;
+			
+			
+	}
+	#a5{
+	height:20px;
+	left:1500px;
+	float: left;
+    margin-right: 7px;
+    font-size: 12px;
+	position:absolute;
+			
+			
+	}
+#w{ 
+      height:133px;
+      width:1200px;
+	  left:450px;
+	   position:absolute;
+	   }
+#g{
+	 width:1200px;
+	height:500px;
+	top:200px;
+	position:absolute;
+	}
+		   }
+	   #g1{
+		  top:200px;
+		  position:absolute; 
+		   
+	  }
+	  #g2{
+		  top:0px;
+		  left:500px;
+		   position:absolute; 
+		   
+		  }
+		   #g3{
+		  top:180px;
+		  left:650px;
+		   position:absolute; 
+		   
+		  }
+	  #g4{
+		  top:168px;
+		  left:800px;
+		   position:absolute; 
+		   
+		  }
+		 #g5{
+		  top:300px;
+		  left:750px;
+		   position:absolute; 
+		   
+		  }
+		  #g6{
+			  left:600px;
+			   position:absolute; 
+			  }
+			   #g7{
+			  left:900px;
+			   position:absolute; 
+			  }
+		

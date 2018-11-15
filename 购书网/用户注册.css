@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+
+#a{
+	width:600px;
+	height:600px;
+	left:50px;
+	top:200px;
+	position:absolute;
+	}
+	#s1{
+		width:1200px;
+		top:50px;
+		height:10px;
+		color: #000000;
+	   left:450px;
+	   position:absolute;
+		
+		}
+#s{
+		width:1200px;
+		top:30px;
+		height:10px;
+	    color:#DD1619;
+	    left:360px;
+	    position:absolute;
+		
+		}
+		#a2{
+			top:100px;
+			color:#000000;
+			
+			 position:absolute;
+		}
+		#w5{
+			width:221px;
+			height:527px;
+			left:650px;
+			top:0px;
+			position:absolute;
+			
+			}
+			

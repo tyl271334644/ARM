@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet"  href="登陆.css" type="text/css">
+<title>登陆</title>
+</head>
+
+<body  bgcolor="#72BBE8">
+<div id="w">
+<div   id="s">
+
+    <div class=port>
+    <div class=i>
+	<LABEL class=fl for=email>用户名：</LABEL> 
+    
+	<P class=fl><INPUT onchange="this.value=this.value.replace(/^\s*|\s*$/g,'')" id=email name=name> </P>
+    <h5><SPAN id=sp_email>用户名即为注册时邮箱！</SPAN></h5>
+    </div>
+    <div class=i>
+	<LABEL class=fl for=password>密<SPAN style="VISIBILITY: hidden">－</SPAN>码：</LABEL> 
+	<P class=fl>
+	<INPUT id=password type=password value="" name=password>
+     </P>
+     </div>
+
+
+     <div class=btnLogin>
+     <INPUT class="hid cur" type=submit value=立即登录></div>
+     <div class=rember>
+     <INPUT id=rem CHECKED type=checkbox value=1 name=keeplive> 
+     <A onclick="document.getElementById('rem').checked=!document.getElementById('rem').checked;return false;" onfocus=this.blur(); href="javascript:void(0);">记住登录帐号</A>
+      <A title=找回密码 href="/getPassword/">忘记密码？</A> </div>
+     <div class=btnReg>
+   <h4><A  href="用户注册.html">立即注册</A></h4>
+ </div>
+</div>
+</div>
+<div id="s1"><img src="img/01458PICAhV.jpg"</div>
+<div id="s4"><a href="book.html">返回</a></font></div>
+
+<embed    src="music/Bandari-月光水岸1.mp3" width="0" height="0"></embed>
+
+
+</body>
+</html>

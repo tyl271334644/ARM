@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet"  href="用户注册.css"type="text/css">
+<title>用户注册</title>
+</head>
+
+<body    bgcolor="#83D6F4">
+<div id="s">
+    <div id="s1"><STRONG ><font face="楷体, Comic Sans MS"><h1>用户注册</h1></font></STRONG>
+</div>
+<div id="a" >
+
+<div id="a2" ><STRONG>创建您的帐号:</STRONG>
+ <font   face="宋体"><h5>欢迎注册爱读书网通行证 (以下信息皆为必填项，请认真填写！)</h5></font>
+ <div id="w"><LABEL for=email>电子邮箱：</LABEL>
+ <INPUT onkeyup=emailChange(); onblur=checkEmail(); id=email class=i name=email>
+<SPAN class=c_r style="MARGIN: 0px 4px 0px 0px">*</SPAN>
+ <h5><SPAN id=sp_email>邮箱将作为账户用来登录游戏和取回密码</SPAN></h5>
+ </div>
+
+ <div id="w1"><LABEL for=password>输入密码：</LABEL>
+ <INPUT onkeyup=checkPassWord(this.value,false); onblur=checkPassWord(this.value,true); id=password type=password value="" name=password>
+ <SPAN class=c_r style="MARGIN: 0px 4px 0px 0px">*</SPAN>
+ <h5><SPAN id=sp_password>至少6个字符且不能为纯数字，字母区分大小写</SPAN></h5>
+ </div>
+ 
+ 
+ <div id="w2"><LABEL for="">确认密码：</LABEL>
+ <INPUT onblur=checkRepeat(this.value); id=repeat type=password value="" name=repeat>
+ <SPAN class=c_r style="MARGIN: 0px 4px 0px 0px">*</SPAN>
+ <h5><SPAN id=sp_repeat>请再次输入密码</SPAN></h5>
+ <div id="w3"><LABEL>出生日期：</LABEL><input  type="date">
+ <SPAN class=c_r style="MARGIN: 0px 4px 0px 0px">*</SPAN>
+ <div id="w4"><BUTTON onclick=submitRegister(); class=hid type=submit value="val">确认注册</BUTTON>
+ <div id="w5"><img src="img/注册.png">
+	<div id="w6"><a href="book.html">返回</a></div>
+
+
+
+
+</div>
+<embed    src="music/Bandari-月光水岸1.mp3" width="0" height="0"></embed>
+</body>
+</html>
